@@ -1,0 +1,11 @@
+Creature,Type,Strength,Special Ability,Intelligence,Wisdom
+Dragon,Fire,152.99900000000002,Fire Breath,80,40.0
+Unicorn,Magical,112.739,Healing,85,42.5
+Phoenix,Fire,136.895,Rebirth,78,39.0
+Griffin,Beast,128.84300000000002,Flight,70,35.0
+Mermaid,Aquatic,96.635,Siren Song,75,37.5
+Cyclops,Giant,144.94700000000003,Super Strength,40,20.0
+Banshee,Spectral,80.531,Wail,65,32.5
+Centaur,Beast,120.79100000000001,Archery,60,30.0
+Minotaur,Giant,141.72400000000002,Labyrinth Guardian,55,27.5
+Goblin,Gremlin,72.468,Trickery,50,25.0
