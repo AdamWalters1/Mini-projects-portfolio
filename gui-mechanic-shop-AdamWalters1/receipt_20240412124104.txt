@@ -1,0 +1,9 @@
+Automotive Receipt
+Selected Services and Total:
+Total Charges: $437.50
+
+Tax: $30.62
+Total with Tax: $468.12
+
+Customer Comments:
+

@@ -1,0 +1,9 @@
+Automotive Receipt
+Selected Services and Total:
+Total Charges: $462.50
+
+Tax: $32.38
+Total with Tax: $494.88
+
+Customer Comments:
+Hello World
