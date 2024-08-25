@@ -1,0 +1,3 @@
+D:/Proton Drive/My files/gsst/compSci/compSci_23_24/w25/calendar/cmake-build-debug/CMakeFiles/calendar.dir
+D:/Proton Drive/My files/gsst/compSci/compSci_23_24/w25/calendar/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Proton Drive/My files/gsst/compSci/compSci_23_24/w25/calendar/cmake-build-debug/CMakeFiles/rebuild_cache.dir
