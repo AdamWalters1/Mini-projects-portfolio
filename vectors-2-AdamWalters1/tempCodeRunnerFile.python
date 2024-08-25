@@ -1,0 +1,14 @@
+def print_star(num, count):
+    x=0
+    
+    while(x!=num):
+        print("*")
+        x+=1
+        count+=1
+
+x=0
+count =0
+while(x!=5):
+    print_star(x, count)
+    x+=1
+print(count)
