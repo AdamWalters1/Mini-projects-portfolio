@@ -1,0 +1,8 @@
+Friendly Hardware Store
+
+Receipt
+
+      Item Name  Quantity     Price
+-----------------------------------
+
+Total Amount Due: $0.00
