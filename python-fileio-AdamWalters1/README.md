@@ -1,6 +1,5 @@
 # Python File I/O
 
-![Assignment meme](images/1_Q55X1gfHjKi1knx96UVdZQ.png)
 ## Objectives
 
 Refresher on working with files in Python.
