@@ -1,29 +1,5 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/n9rBxaQh)
-# Intro to GUI's in Python with `tkinter`
 
-![GUI Meme](img/f9kp06jawsu41.jpg)
-
-## What is a GUI?
-
-A GUI (Graphical User Interface) is a type of user interface that allows users to interact with electronic devices through graphical icons and visual indicators, as opposed to text-based interfaces, typed command labels or text navigation. GUIs were introduced in reaction to the perceived steep learning curve of command-line interfaces (CLIs), which require commands to be typed on the keyboard. (Some will interpret themselves as Gigachads for only using command-line interfaces, but that's a discussion for another day.)
-
-## Why use a GUI?
-
-GUIs are generally easier to use than CLIs, as they allow users to interact with the program in a more intuitive way. This is especially true for users who are not familiar with the program or the command-line interface. GUIs can also make a program more visually appealing, which can help to attract users and make the program more user-friendly.
-
-Think about previous programs you have made in this class. How much easier would it have been to interact with them if they had a GUI?
-
-## What is `tkinter`?
-
-`tkinter` is a built-in Python library that allows you to create GUI applications. It provides a set of tools and widgets that you can use to create windows, buttons, labels, text boxes, and other elements of a GUI. `tkinter` is easy to use and is a good choice for beginners who want to create simple GUI applications.
-
-## What about `PyQt`?
-
-`PyQt` is another popular library for creating GUI applications in Python. It is more powerful and flexible than `tkinter`, but it is also more complex and has a steeper learning curve. If you are new to GUI programming, `tkinter` is a good place to start. Once you are comfortable with `tkinter`, you can move on to `PyQt` if you need more advanced features.
-
-We'll be using `Qt` (what `PyQt` is based on) in C++ when we make GUI's there, so don't worry if you're not using `PyQt` right now.
-
-**If you would like todo today's assignment in `PyQt`, feel free to do so!**
+# GUI's in Python with `tkinter`
 
 ## Getting Started
 
@@ -38,21 +14,6 @@ For `pip` users, you can install it with the following command:
 ```bash
 pip install tk
 ```
-
-## Example code to get you started
-
-I have the following files in the [notes](notes) directory for you to see how `tkinter` works:
-
-1. [gui_basic.py](notes/gui_basic.py) - A basic example of a `tkinter` GUI
-2. [gui_wButtons.py](notes/gui_wButtons.py) - A GUI with buttons
-3. [gui_wForms.py](notes/gui_wForms.py) - A GUI with forms to fill out
-4. [gui_wCheckboxes.py](notes/gui_wCheckboxes.py) - A GUI with checkboxes to select from
-5. [gui_interactive.py](notes/gui_interactive.py) - A GUI that interacts with the user.
-
-I'll be going over these in class, if you have any questions, feel free to ask!
-
-## Your Assignment: Part 1
-
 ### Python Program Prompt: Distance Converter GUI Application
 
 **Objective:** Create a Python GUI application using Tkinter that converts a distance input by the user from kilometers to either miles or nanometers. The choice of conversion should be determined by the user through a checkbox.
@@ -60,16 +21,16 @@ I'll be going over these in class, if you have any questions, feel free to ask!
 **Requirements:**
 
 1. **GUI Layout:**
-   - The application window should have a title "Distance Converter" and a fixed size that can comfortably fit all widgets.
-   - Include an Entry widget where users can input the distance in kilometers.
-   - Add a Checkbutton that allows users to select whether they want the conversion to be in nanometers. If this Checkbutton is not selected, the conversion will default to miles.
-   - Incorporate a Button that, when clicked, performs the conversion based on the user's input and the state of the Checkbutton.
-   - Display a Label that will show the conversion result or an error message if the input is invalid.
+   - The application window has a title "Distance Converter" and a fixed size that can comfortably fit all widgets.
+   - An Entry widget where users can input the distance in kilometers.
+   - A Checkbutton that allows users to select whether they want the conversion to be in nanometers. If this Checkbutton is not selected, the conversion will default to miles.
+   - A Button that, when clicked, performs the conversion based on the user's input and the state of the Checkbutton.
+   - A Label that will show the conversion result or an error message if the input is invalid.
 
 2. **Functionality:**
-   - Implement a function `convert_distance` that reads the input distance in kilometers, checks the state of the Checkbutton, and calculates the conversion either to nanometers or to miles.
-   - Ensure the program handles invalid inputs gracefully by displaying an appropriate message in the result Label instead of crashing.
-   - For valid inputs, the conversion result should be displayed in the result Label. If converting to nanometers and the result exceeds 10,000, display the result in scientific notation.
+   - A function `convert_distance` that reads the input distance in kilometers, checks the state of the Checkbutton, and calculates the conversion either to nanometers or to miles.
+   - The program handles invalid inputs gracefully by displaying an appropriate message in the result Label instead of crashing.
+   - For valid inputs, the conversion result is displayed in the result Label. If converting to nanometers and the result exceeds 10,000, display the result in scientific notation.
 
 3. **Conversion Logic:**
    - Use the conversion factor 1 kilometer = 0.621371 miles for converting to miles.
