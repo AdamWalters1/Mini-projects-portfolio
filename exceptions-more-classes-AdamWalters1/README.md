@@ -1,18 +1,11 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/kpfuECUa)
 
-# Exception Handling in Python and C++ with your
-
-![Assignment Meme](img/programmerhumor-io-programming-memes-edfc502b5cef531-608x570.jpg)
-
-## Objective
-
-The goal of this assignment is to deepen your understanding of exception handling in both Python and C++. You will create two programs: one in Python and one in C++, which will accept time input (hours, minutes, seconds) from the user, validate the input, and convert it to a 24-hour format based on AM or PM input. You'll practice defining and using custom exceptions for input validation.
+# Exception Handling in Python and C++
 
 ## Requirements
 
 ### Common Requirements for Both Languages
 
-- Your program must prompt the user for hours, minutes, seconds, and whether it's AM or PM.
+- The program must prompt the user for hours, minutes, seconds, and whether it's AM or PM.
 - Validate the user inputs:
   - Hours must be between 0 and 12.
   - Minutes and seconds must be between 0 and 59.
@@ -20,18 +13,18 @@ The goal of this assignment is to deepen your understanding of exception handlin
 - If an invalid input is provided, the program should raise and handle a custom exception, informing the user of the invalid input and prompting for it again.
 - After successfully receiving valid inputs, your program should convert the time to a 24-hour format and display it.
 
-### Specific Requirements
+### Specifics
 
 #### Python
 
-- Define custom exception classes for invalid hours, minutes, and seconds.
-- Use a `try-except` block to handle exceptions.
-- Utilize the `input()` function to receive user inputs.
-- Use functions to modularize your code (e.g., `get_hours()`, `get_minutes()`, `get_seconds()`, `print_24_hour_time()`).
+- Defined custom exception classes for invalid hours, minutes, and seconds.
+- Used a `try-except` block to handle exceptions.
+- Utilized the `input()` function to receive user inputs.
+- Used functions to modularize the code (e.g., `get_hours()`, `get_minutes()`, `get_seconds()`, `print_24_hour_time()`).
 
 #### C++
 
-This version of the program will be a "bit" more challenging. You will be required to use pointers and dynamic memory allocation to store the user inputs. You will also need to use `try-catch` blocks to handle exceptions.
+This version of the program was a "bit" more challenging. I used pointers and dynamic memory allocation to store the user inputs. Also needed to use `try-catch` blocks to handle exceptions.
 
 1. **Classes**:
    - **Time Class**: Create a `Time` class that encapsulates the hours, minutes, and seconds as private pointer variables. This class should have:
@@ -59,7 +52,6 @@ This version of the program will be a "bit" more challenging. You will be requir
 
 ## Expected Output
 
-Your program should interact with the user as follows
 
 ```txt
 Enter hours: 12 
