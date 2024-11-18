@@ -3,7 +3,7 @@
 
 ## Program 1 - Array Algorithm
 
-Thi program consists of the following components:
+This program consists of the following components:
 
 1. __Prime Number Checker:__ Implemented a function that takes an integer as input and returns a boolean value indicating whether the integer is a prime number.
 2. __Bubble Sort Algorithm:__ Implemented the bubble sort algorithm in a function that takes an array of integers and sorts them in ascending order.
