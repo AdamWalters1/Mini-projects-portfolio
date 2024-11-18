@@ -1,10 +1,8 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/OtCu-M8O)
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-7f7980b617ed060a017424585567c406b6ee15c891e84e1186181d67ecf80aa0.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=13732824)
-# More classes in C++, `static` variables and `const`
 
-## Bank Account
+## Bank Account in C++
+Use OOP to create a bank account program.
 
-Define the class bankAccount to implement the basic properties of a bank account. An object of this class should store
+Defined the class bankAccount to implement the basic properties of a bank account. An object of this class stores
 the following data:
 
 - Account holder’s name (string)
@@ -13,11 +11,7 @@ the following data:
 - balance ( double )
 - interest rate ( double, Store interest rate as a decimal number.)
 
-Add appropriate member functions to manipulate an object. Use a static member in the class to automatically assign
-account numbers. Declare an array of 10 components of type bankAccount to process up to 10 customers and write a program
-to illustrate how to use your class.
 
-I will walk you through this. 
 
 ## Expected Output
 
@@ -58,7 +52,6 @@ Interest Rate: 2.00%
 
 ## Tests 
 
-The tests for this assignment are designed to evaluate the code from a strict perpsective for certain functions. 
-Passing all of the tests indicates a 100, however if tests are not passed the code will be looked into. 
+Passing all of the tests means the code works for all potential situations.
 
 
