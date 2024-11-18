@@ -1,8 +1,6 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/Z951VMtR)
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-7f7980b617ed060a017424585567c406b6ee15c891e84e1186181d67ecf80aa0.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=14796597)
+
 # More Recursion
 
-![MORE](img/Kylo-Ren-More-2-meme-9.jpg)
 
 ## Program 1 - Square Root of a Number
 
@@ -44,9 +42,6 @@ x & \text{if } y = 0 \\
 \end{equation*}
 $$
 
-Write a recursive function, `gcd`, that takes as parameters two integers and returns the greatest common divisor of the numbers. Also, write a program to test your function.
+Made recursive function, `gcd`, that takes as parameters two integers and returns the greatest common divisor of the numbers. Also, wrote a program to test my function.
 
 ## Resources
-
-- [Binary to Decimal](res/bin_to_dec.cpp)
-- [Largest Element in an Array](res/largest_element.cpp)
